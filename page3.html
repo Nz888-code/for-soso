@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>💘</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      text-align: center;
+      background: linear-gradient(to bottom, #cce6ff, #ffffff);
+    }
+
+    .card {
+      margin-top: 80px;
+      max-width: 650px;
+      display: inline-block;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .secret {
+      display: none;
+      margin-top: 20px;
+      font-size: 20px;
+      color: #1a75ff;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: #1a75ff;
+      color: white;
+      border: none;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <p>
+      მინდა გითხრა, რომ ძალიან მომწონხარ 💘<br><br>
+
+      შენზე კეთილ, საყვარელ, გამგებ და ანგელოზ ადამიანს არ შევხვედრივარ ცხოვრებაში.<br><br>
+
+      ყველაფერი იქნება კარგად 💙<br><br>
+
+      გაკოცე ძალიან ბევრი 💘
+    </p>
+
+    <button onclick="show()">სიურპრიზი 💌</button>
+
+    <div class="secret" id="msg">
+      შენ ჩემთვის ძალიან განსაკუთრებული ადამიანი ხარ 💘🤍
+    </div>
+
+  </div>
+
+  <script>
+    function show() {
+      document.getElementById("msg").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
